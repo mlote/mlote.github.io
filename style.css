@@ -364,17 +364,21 @@ footer {
      border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 .social-icons {
-    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
 }
 .social-icons a {
+    color: inherit;
     font-size: 1.5rem;
-    margin: 0 0.75rem;
-    color: var(--light-text-secondary);
-    transition: color var(--transition-duration), transform var(--transition-duration);
+    text-decoration: none;
+    transition: color 0.2s;
 }
 .social-icons a:hover {
-    color: var(--light-text);
-    transform: scale(1.2);
+    color: #0077ff; /* or your accent color */
 }
 .footer-text {
     font-size: 0.875rem;
