@@ -365,20 +365,23 @@ footer {
 }
 .social-icons {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     justify-content: center;
     align-items: center;
     padding: 0;
     margin: 0;
+    list-style: none; /* Remove bullets if any */
 }
+
 .social-icons a {
     color: inherit;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-decoration: none;
     transition: color 0.2s;
 }
+
 .social-icons a:hover {
-    color: #0077ff; /* or your accent color */
+    color: #0077ff; /* Accent color on hover */
 }
 .footer-text {
     font-size: 0.875rem;
